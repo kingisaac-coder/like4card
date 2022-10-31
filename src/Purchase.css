@@ -1,0 +1,47 @@
+.payment__image {
+  display: flex;
+  gap: 2rem;
+  object-fit: cover;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.payment__image > img {
+  height: 7vmax;
+}
+h1 {
+  text-align: right;
+  margin-top: 0.4rem;
+  color: black;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+input {
+  width: 90%;
+  height: 5vmax;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.cradz {
+  margin-left: 0;
+}
+.Cw {
+  width: 50%;
+  padding: 0.5rem;
+}
+.button {
+  padding: 1rem;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+}
